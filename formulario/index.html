@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main class="main-form">
+        <!--HERO-->
+        <section class="hero">
+         
+            <article class="hero-title">
+                 <h1 class="hero-title__title1">Contact Us</h1>
+                 <h1 class="hero-title__title2">Enter all the data, we will contact you as soon as possible.</h1>
+ 
+             </article>
+        </section>
+         <!--TITLE-->
+         
+         <section class="form">
+            
+                 <form action="" id="survey-form" class="survey-form" name="form" method="GET">
+                         <!--INFORMACION PERSONAL-->
+                         <article class="information">
+                 
+                             <label for="" class="information__label"> Name  <span>*</span>  </label><br>
+                             <input type="text" placeholder="Nombre" id="name"  class="information__input" name="name"> <br><br> 
+                            
+                             <label for="" class="information__label"> Email <span>*</span>  </label><br>
+                             <input type="email" placeholder="Correo elcetronico" id="email" class="information__input"><br> <br>
+                 
+                             <label for="" class="information__label"> Phone  <span>*</span>  </label> <br>
+                             <input type="number" placeholder="Numero de celular" id="numCelular"class="information__input">
+                         </article>
+                             <br>
+                             
+                         <!--RADIO BUTTOM-->
+                             <article class="radio">
+                                 <label for="" class="radio__label">Ingrese su genero <span>*</span> </label><br>
+                                 <div>
+                                     <input type="radio" id="genero" name="genero" value="flame"><label for="" class="radio__input" >Flame</label>
+                                 </div>
+                 
+                                 <div>
+                                     <input type="radio" id="genero" name="genero" value="male"><label for="" class="radio__input">Male</label>
+                                 </div>
+                             </article>
+                         <br>
+                         <!--OPTIONS-->
+                          <article class="options">
+                             <label for="" class="option__label">Sevicio para empresas <span>*</span>  </label> <br>
+                             <select name="select" id="dropdown"  required>
+                                 <option value="1">Grandes</option>
+                                 <option value="2">Medianas</option>
+                                 <option value="3">Pequeñas</option>
+                             </select>
+                          </article>
+                          <br>
+                         <!--CHECKBOX--> 
+                         <article class="checkbox">
+                             <label for="" class="checkbox__label">Medio en el cual se entero de nuestros servicios <span>*</span> </label><br>
+                             <label for="checkbox1" class="chackbox__box1"><input type="checkbox" value="first_checkbox" id="checkbox1">Facebook</label><br>
+                             <label for="checkbox2" class="chackbox__box2"> <input type="checkbox" value="second_checkbox" id="checkbox2">Instagram</label><br>
+                             <label for="checkbox3" class="chackbox__box3"><input type="checkbox" value="thisrd_checkbox" id="checkbox3">WhatsApp</label><br>
+                             <label for="checkbox4" class="chackbox__box4"> <input type="checkbox" value="fourt_checkbox" id="checkbox4">Amigos</label><br>
+                             
+                         </article>
+                         <br>
+                         <!--MESSAGE BOTTON-->
+                         <article class="message">
+                             <label for="" class="messge">Deje su mensaje <span>*</span> </label><br>
+                                 <textarea name="mesagge" id="messge" cols="20" rows="10" class="checkbox__textarea"></textarea> <br>
+                                 <!--BOTON-->
+                                 <input type="submit" placeholder="enviar" id="submit" class="submit">
+                         </article>
+                     </form>
+ 
+                     <article class="contact">
+                             <div class="contact__maps">
+                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.6809764191744!2d-95.93497468520718!3d41.27228161108694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938fc8fc35a015%3A0xa5bc94edf48f9af2!2sThe%20Mastercraft!5e0!3m2!1ses!2sco!4v1582508490456!5m2!1ses!2sco" 
+                                 width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>                                    
+                             </div>
+                             
+                            <div class="contact-data">
+                                
+                                 <a href="https://www.facebook.com/" target="blank"class="contac-data__links"><img src="facebook.png" alt=""class="contact-data__img"></a>
+                                 <a href="https://www.instagram.com/?hl=es-la" target="blank" class="contac-data__links"><img src="instagram.png" alt="" class="contact-data__img"></a>
+                                 <a href="https://web.whatsapp.com/" target="blank" class="contac-data__links"><img src="whatsapp.png" alt="" class="contact-data__img"></a>
+ 
+                                 <h5>Grain & Mortar</h5>
+                                 <h5>1111 N. 13th St. Suite 141 <br>Omaha, Ne 68102</h5>
+                                 <a href="#">Get Directions =></a>
+                                 <h5>New businnes</h5>
+                                 <h5>402-370-8170</h5>
+                            </div>
+ 
+ 
+                     </article>
+ 
+         </section>
+    
+     </main>
+     <script src="index.js"></script>
+</html>
+
+

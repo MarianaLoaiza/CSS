@@ -1,0 +1,148 @@
+body{
+    display: flex;
+    background-color: black;
+}
+
+.grid{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-rows: 53% 250% 250% 250%;
+    border: 1px solid black;
+    grid-gap: 9px;
+   
+}
+
+.grid__items{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(228, 218, 218);
+    align-content: center;
+    
+}
+
+.hero{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(241, 230, 230);
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    
+}
+
+.pelicula1{
+    background-image: url(imagenes/pelicula2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+}
+
+.pelicula2{
+    background-image: url(imagenes/pelicula3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+}
+
+.pelicula3{
+    background-image: url(imagenes/pelicula4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+}
+
+.pelicula5{
+    background-image: url(imagenes/pelicula5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+}
+
+.pelicula6{
+    background-image: url(imagenes/pelicula6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+}
+
+.pelicula7{
+    background-image: url(imagenes/pelicula7.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+}
+
+.pelicula8{
+    background-image: url(imagenes/pelicula8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+   
+}
+
+.pelicula9{
+    background-image: url(imagenes/pelicula9.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+    
+}
+
+.pelicula10{
+    background-image: url(imagenes/pelicula10.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+    
+    
+}
+
+.pelicula11{
+    background-image: url(imagenes/pelicula11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+  
+}
+
+.pelicula12{
+    background-image: url(imagenes/pelicula12.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+    
+}
+
+.pelicula13{
+    background-image: url(imagenes/pelicula13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+    
+}
+
+[ class*="pelicula"]{
+    transition: 1.5s ease;
+    -moz-transition: 1.5s ease; /* Firefox */
+    -webkit-transition: 1.5s ease; /* Chrome - Safari */
+    -o-transition: 1.5s ease; /* Opera */
+}
+
+.grid__items:hover{
+    transform : scale(2);
+		-moz-transform : scale(2); /* Firefox */
+		-webkit-transform : scale(2); /* Chrome - Safari */
+		-o-transform : scale(2); /* Opera */
+		-ms-transform : scale(2); /* IE9 */
+}
+
+h1{
+    text-shadow: 1px 3px 6px rgba(0,0,0,0.8);
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 0.4px;
+    padding-top: -1px;
+}
