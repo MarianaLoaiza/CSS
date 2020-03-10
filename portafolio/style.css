@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(238, 228, 228);
+    font-family: 'Viaoda Libre', cursive;
+}
+
+.header{
+    width: 100%;
+    height: 3550%;
+    background: rgb(224, 224, 224);
+    
+}
+
+.hero{
+    max-width: 90%;
+    height: 600px;
+    background-image: url(imagenes/marina.jpeg);
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+    position: relative;
+    
+   
+}
+ 
+.nav{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 1%;
+    
+}
+.list{
+    display: flex;
+    color: blue ;  
+
+}
+
+
+.list__items{
+    list-style: none;
+    padding-left: 20px;
+    
+    
+
+}
+.list__ancor{
+
+    color: blue;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.presentation{
+    
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    color:blue;
+    
+}
+
+.presentation__title1{
+    
+    font-size: 50px;    
+    
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    height:1875%;
+    color: blue;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+
+}
+
+.information__title{
+    font-weight: 900;
+}
+
+.information___paragraph{
+    font-size: 23px;
+}
+
+.stadies{
+    width: 90%;
+    height: auto;
+    color: blue;
+    margin: auto;
+    text-align: center;
+    margin-top: 7px;
+    
+}
+
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    margin-right: 0;
+}
+.red-social{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.red-social__ancor, .red-social__email{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.red-social__img{
+    width: 40px;
+    height: 40px;
+}
+
+.by-mariana{
+    display: flex;
+    padding: 15px;
+   align-items: center;
+   padding-left: 500px;
+
+}
+
+    
+
+
