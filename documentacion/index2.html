@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<title>programacion orientada a objetos</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+#home {
+  background-position: center;
+  background-size: cover;
+  background-image: url(imagenes/descarga.jpg);
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+        
+      </header>
+<!-- Links (sit on top) -->
+    <div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+        <div class="w3-col s3">
+        <a href="#home" class="w3-button w3-block w3-black">HOME</a>
+        </div>
+        <div class="w3-col s3">
+        <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+        </div>
+        <div class="w3-col s3">
+        <a href="#classPoo" class="w3-button w3-block w3-black">POO CLASSES </a>
+        </div>
+        <div class="w3-col s3">
+        <a href="#objectsPoo" class="w3-button w3-block w3-black">POO OBJECTS</a>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Add a background color and large text to the whole page -->
+    <div class="w3-sand w3-grayscale w3-large">
+
+    <!-- About Container -->
+    <div class="w3-container" id="about">
+    <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE POO</span></h5>
+        La programación Orientada a objetos se define como un paradigma de la programación, una manera de programar específica, donde se organiza el código en unidades denominadas clases, de las cuales se crean objetos que se relacionan entre sí para conseguir los objetivos de las aplicaciones.
+        <br>
+        La programación Orientada a objetos (POO) es una forma especial de programar, más cercana a como expresaríamos las cosas en la vida real que otros tipos de programación.
+        
+            <div class="w3-panel w3-leftbar w3-light-grey">
+        <p><i>"Al programar orientado a objetos tenemos que aprender a pensar cómo resolver los problemas de una manera distinta a como se realizaba anteriormente, en la programación estructurada.</i></p>
+        
+        </div>
+        
+        
+    </div>
+    </div>
+
+    <div class="w3-container" id="classPoo">
+        <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Clases en POO</span></h5>
+        <p>Las clases son declaraciones de objetos, también se podrían definir como abstracciones de objetos. Esto quiere decir que la definición de un objeto es la clase. Cuando programamos un objeto y definimos sus características y funcionalidades en realidad lo que estamos haciendo es programar una clase. 
+        En los ejemplos anteriores en realidad hablábamos de las clases coche o fracción porque sólo estuvimos definiendo, aunque por encima, sus formas.</p>      
+            <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>"Al programar orientado a objetos tenemos que aprender a pensar cómo resolver los problemas de una manera distinta a como se realizaba anteriormente, en la programación estructurada.</i></p>
+            
+    </div>     
+   
+    
+                
+    <div class="w3-container" id="objectsPoo">
+        <div class="w3-content" style="max-width:700px">
+            <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Objetos en POO</span></h5>
+            <p> La palabra instace que en inglés significa ejemplar). Por ejemplo, un objeto de la clase fracción es por ejemplo 3/5. El concepto o definición de fracción sería la clase, pero cuando ya estamos hablando de una fracción en concreto 4/7, 8/1000 o cualquier otra, la llamamos objeto.
+            <br>
+                    Para crear un objeto se tiene que escribir una instrucción especial que puede ser distinta dependiendo el lenguaje de programación que se emplee, pero será algo parecido a esto.
+                    </p>      
+                    <div class="w3-panel w3-leftbar w3-light-grey">
+                         <p><i>miCoche = new Coche()</i></p>
+                    </div>
+                    <p>Con la palabra "new" especificamos que se tiene que crear una instancia de la clase que sigue a continuación. Dentro de los paréntesis podríamos colocar parámetros con los que inicializar el objeto de la clase coche.</p>    
+
+                    
+            </div> 
+            <div class="w3-content" style="max-width:700px">
+                        <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Estados en objetos</span></h5>
+                        <p>Cuando tenemos un objeto sus propiedades toman valores. Por ejemplo, cuando tenemos un coche la propiedad color tomará un valor en concreto, como por ejemplo rojo o gris metalizado. El valor concreto de una propiedad de un objeto se llama estado.
+                            <br>
+                            Para acceder a un estado de un objeto para ver su valor o cambiarlo se utiliza el operador punto.
+                          </p>      
+                            <div class="w3-panel w3-leftbar w3-light-grey">
+                          <p><i>miCoche.color = "rojo"</i></p>
+                          
+                          </div> 
+                    <p>El objeto es miCoche, luego colocamos el operador punto y por último el nombre de la propiedad a la que deseamos acceder. En este ejemplo estamos cambiando el estado de la propiedad del objeto a "rojo" con una simple asignación</p>
+                </div>
+
+</body>
+</html>
